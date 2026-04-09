@@ -1,0 +1,10 @@
+If:
+  PathMatch: ^hello_world/.*
+CompileFlags:
+  CompilationDatabase: hello_world/build
+
+---
+If:
+  PathMatch: ^blink/.*
+CompileFlags:
+  CompilationDatabase: blink/build
